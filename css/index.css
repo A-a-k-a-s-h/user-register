@@ -1,0 +1,93 @@
+/* Set background color and font styles for the body */
+body {
+    background-color: #dc4444;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Add a gradient background to the jumbotron */
+  .jumbotron {
+    background: linear-gradient(rgba(34,34,34,0.9), rgba(34,34,34,0.7)), url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the jumbotron title and subtitle */
+  .jumbotron h1 {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .jumbotron p {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  /* Style the register and login buttons */
+  .btn-primary {
+    background-color: #BEBEBE;
+    border-color: #BEBEBE;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1.2rem 2.5rem;
+    margin: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #fff;
+    color: #BEBEBE;
+  }
+  
+  /* Style the features section */
+  .features {
+    background-color: #fff;
+    padding: 3rem 0;
+  }
+  
+  .features h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .features ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .features li {
+    margin: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
